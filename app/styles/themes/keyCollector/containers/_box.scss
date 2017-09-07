@@ -1,0 +1,17 @@
+
+.box--rounded {
+  @include border-radius(4px);
+}
+
+.box--purple {
+  @include radial-gradient($violet-1, $blue-1);
+}
+
+.box--dkBlue {
+  background-color: $blue-6;
+}
+
+
+.box--blue {
+  background-color: $blue-1;
+}
